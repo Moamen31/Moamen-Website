@@ -1234,6 +1234,7 @@ header nav .mega-menu .links a i {
 
 .events .info {
     flex: 1;
+    max-width: 100%;
 }
 
 .events .info .time {
