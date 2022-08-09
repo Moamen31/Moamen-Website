@@ -1968,6 +1968,7 @@ footer .copyright a:hover {
     overflow: hidden;
     display: none;
     animation: showbtn 0.4s linear;
+    z-index: 99;
 }
 .scroll-btn::before{
     content: "";
