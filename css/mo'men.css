@@ -184,9 +184,11 @@ header nav>ul> .show-menu .mega-menu {
 
 @media (max-width:767px) {
     header nav> ul> .show-menu .mega-menu {
-        flex-direction: column;
         gap: 0;
         top: 124px;
+    }
+    header nav> ul> .other-links .mega-menu{
+        flex-direction: column;
     }
 }
 
@@ -552,7 +554,7 @@ header nav .mega-menu .links a i {
 
 .gallery .container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 40px;
 }
 
